@@ -1,0 +1,60 @@
+patch:
+  styleL/proximity_correction: false
+  preset_keyboards/luna_pinyin_simp/import_preset: miui
+  preset_keyboards/miui:
+    name: MIUI
+    author: "Jigsaw <j1g5aw@foxmail.com>"
+    ascii_mode: 0
+    label_transform: uppercase
+    lock: true
+    width: 10
+    height: 50
+    key_hint_offset_y: -13
+    keys:
+      # 第一行
+      - { click: "q", swipe_up: "1", hint: "1" }
+      - { click: "w", swipe_up: "2", hint: "2" }
+      - { click: "e", swipe_up: "3", hint: "3" }
+      - { click: "r", swipe_up: "4", hint: "4" }
+      - { click: "t", swipe_up: "5", hint: "5" }
+      - { click: "y", swipe_up: "6", hint: "6" }
+      - { click: "u", swipe_up: "7", hint: "7" }
+      - { click: "i", swipe_up: "8", hint: "8" }
+      - { click: "o", swipe_up: "9", hint: "9" }
+      - { click: "p", swipe_up: "0", hint: "0" }
+      # 第二行
+      - { width: 5 }
+      - { click: "a", swipe_up: "~", hint: "~" }
+      - { click: "s", swipe_up: "!", hint: "！" }
+      - { click: "d", swipe_up: "@", hint: "@" }
+      - { click: "f", swipe_up: "/", hint: "/" }
+      - { click: "g", swipe_up: "%", hint: "%" }
+      - { click: "h", swipe_up: '"', hint: "“" }
+      - { click: "j", swipe_up: '"', hint: "”" }
+      - { click: "k", swipe_up: "*", hint: "*" }
+      - { click: "l", swipe_up: "?", hint: "？" }
+      - { width: 5 }
+      # 第三行
+      - { click: "", composing: "'", label: "分词", width: 13 }
+      - { width: 2 }
+      - { click: "z", swipe_up: "(", hint: "（" }
+      - { click: "x", swipe_up: ")", hint: "）" }
+      - { click: "c", swipe_up: "-", hint: "-" }
+      - { click: "v", swipe_up: "_", hint: "_" }
+      - { click: "b", swipe_up: ":", hint: "：" }
+      - { click: "n", swipe_up: ";", hint: "；" }
+      - { click: "m", swipe_up: "\\", hint: "、" }
+      - { width: 2 }
+      - { click: BackSpace, width: 13 }
+      # 第四行
+      - { click: Keyboard_symbols, width: 12 }
+      - { click: Keyboard_number, width: 12 }
+      - { click: ",", label: "，" }
+      - { click: space, width: 30 }
+      - { click: ".", label: "。" }
+      - { click: Mode_switch, swipe_up: Menu, width: 12 }
+      - { click: Return, swipe_up: CommitComment, width: 13 }
+      # 最后一行
+      - { click: Menu, width: 15 }
+      - { width: 70 }
+      - { click: liquid_keyboard_switch, width: 15 }
