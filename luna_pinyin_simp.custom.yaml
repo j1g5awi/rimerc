@@ -9,3 +9,4 @@ patch:
     option_name: emoji_suggestion
     tips: all
   speller/delimiter: "''"
+  translator/dictionary: luna_pinyin.extended 
