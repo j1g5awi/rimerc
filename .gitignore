@@ -1,4 +1,5 @@
 /build/
 /*.userdb/
+/plum/
 user.yaml
 installation.yaml
