@@ -35,7 +35,7 @@ patch:
       - { click: "l", swipe_up: "?", hint: "？" }
       - { width: 5 }
       # 第三行
-      - { click: "", composing: "'", label: "分词", width: 13 }
+      - { click: Shift_L, composing: "'", width: 13 }
       - { width: 2 }
       - { click: "z", swipe_up: "(", hint: "（" }
       - { click: "x", swipe_up: ")", hint: "）" }
