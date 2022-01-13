@@ -3,3 +3,5 @@ __patch:
   - patch/+:
       __include: easy_en:/patch
 # }
+patch:
+  easy_en/enable_sentence: false
