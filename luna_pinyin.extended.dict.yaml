@@ -4,4 +4,16 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
+  - luna_pinyin.extra_hanzi
+  - luna_pinyin.sgmain
+  - luna_pinyin.sgplus
+  - luna_pinyin.sgplus2
+  - luna_pinyin.chat
+  - luna_pinyin.net
+  - luna_pinyin.user
+  - luna_pinyin.website
+  - luna_pinyin.poetry
+  - luna_pinyin.computer
+  - luna_pinyin.place
+  - luna_pinyin.shopping
   - zhwiki
