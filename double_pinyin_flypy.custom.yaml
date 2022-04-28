@@ -14,3 +14,6 @@ patch:
   speller/delimiter: "''"
   simplifier/option_name: zh_simp
   translator/dictionary: luna_pinyin.extended
+  key_binder/bindings:
+    - { when: always, accept: Release+Escape, toggle: ascii_mode}
+
