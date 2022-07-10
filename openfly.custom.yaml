@@ -21,7 +21,18 @@ patch:
     opencc_config: emoji.json
     option_name: emoji_suggestion
     tips: all
-  switches/+:
+  switches:
+    - name: ascii_mode
+      reset: 0
+    - name: full_shape
+    - name: ascii_punct
+      reset: 0
+    - name: simplification
+      reset: 0
+      states: [ 汉字, 漢字 ]
     - name: emoji_suggestion
-      reset: 1
+      reset: 0
       states: ["🈚️️\uFE0E", "🈶️️\uFE0F"]
+    - name: openfly_enable_2nd_short
+      states: [ 二重简码关, 二重简码开 ]
+      reset: 1

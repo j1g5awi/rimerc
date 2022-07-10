@@ -1,11 +1,15 @@
 patch:
   switches:
-    - name: zh_simp
-      reset: 1
+    - name: ascii_mode
+      reset: 0
+    - name: full_shape
+    - name: ascii_punct
+    - name: simplification
       states: [ 漢字, 汉字 ]
     - name: emoji_suggestion
       reset: 1
       states: ["🈚️️\uFE0E", "🈶️️\uFE0F"]
+
   engine/filters/@before 0: simplifier@emoji_suggestion
   emoji_suggestion:
     opencc_config: emoji.json

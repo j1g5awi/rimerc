@@ -1,5 +1,9 @@
 patch:
   switches:
+    - name: ascii_mode
+      reset: 0
+    - name: full_shape
+    - name: ascii_punct
     - name: zh_simp
       reset: 1
       states: [ 漢字, 汉字 ]
