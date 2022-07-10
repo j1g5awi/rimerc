@@ -12,6 +12,8 @@ schema:
     閩南語輸入方案
     採用「臺灣閩南語羅馬字拼音方案」
     http://www.ntcu.edu.tw/tailo/
+  dependencies:
+    - luna_pinyin
 
 switches:
   - name: ascii_mode
@@ -172,22 +174,3 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*$"
-
-style:
-  display_tray_icon: false
-  font_face: "Microsoft Jhenghei"
-  font_point: 12
-  fullscreen: false
-  horizontal: true
-  inline_preedit: false
-  layout:
-    border_width: 3
-    candidate_spacing: 5
-    hilite_padding: 2
-    hilite_spacing: 4
-    margin_x: 12
-    margin_y: 6
-    min_height: 0
-    min_width: 160
-    round_corner: 4
-    spacing: 10
