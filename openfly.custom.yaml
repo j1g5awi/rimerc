@@ -24,6 +24,7 @@ patch:
     - simplifier@emoji_suggestion
     - lua_filter@openfly_hint_filter
     #- lua_filter@openfly_deletion_filter
+    - lua_filter@openfly_easy_en_compatibile_filter
     - simplifier
     - simplifier@simplification
     - uniquifier
