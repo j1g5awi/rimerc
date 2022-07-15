@@ -5,6 +5,7 @@ patch:
     - name: full_shape
     - name: ascii_punct
     - name: simplification
+      reset: 1
       states: [ 漢字, 汉字 ]
     - name: emoji_suggestion
       reset: 1
@@ -16,6 +17,5 @@ patch:
     option_name: emoji_suggestion
     tips: all
   speller/delimiter: "''"
-  simplifier/option_name: zh_simp
   translator/dictionary: luna_pinyin.extended
 
